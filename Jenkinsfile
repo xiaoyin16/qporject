@@ -1,17 +1,17 @@
 pipeline {
     agent any 
     stages {
-        stage('Build') { 
+        stage('Build 001') { 
             steps {
                 println "Build" 
             }
         }
-        stage('Test') { 
+        stage('Test 002') { 
             steps {
                 println "Test" 
             }
         }
-        stage('Deploy') { 
+        stage('Deploy 003') { 
             steps {
                 println "Deploy" 
             }
